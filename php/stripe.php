@@ -1,6 +1,6 @@
 // Set your secret key: remember to change this to your live secret key in production
 // See your keys here https://dashboard.stripe.com/account/apikeys
-\Stripe\Stripe::setApiKey("sk_test_9NpeHYNAM2IF32N5MiONtn5f");
+\Stripe\Stripe::setApiKey("pk_live_i16xE5pH0SmIRCMJPIqmms6R);
 
 // Get the credit card details submitted by the form
 $token = $_POST['stripeToken'];
